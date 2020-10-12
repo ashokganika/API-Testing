@@ -1,0 +1,25 @@
+const productData = [
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "Motorcycle", brand: "BMW" },
+  { id: 1, name: "Motorcycle", brand: "BMW" },
+  { id: 1, name: "Motorcycle", brand: "BMW" },
+  { id: 1, name: "Motorcycle", brand: "BMW" },
+  { id: 1, name: "Motorcycle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+  { id: 1, name: "vechicle", brand: "BMW" },
+];
+
+module.exports = productData;
