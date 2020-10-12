@@ -13,12 +13,11 @@ const getHeader = (token = false) => {
 
 const axios = Axios.create({
   baseURL: 'https://gorest.co.in/public-api/',
-
 })
+
 const get = (url, isSecure) => {
   return axios.get(url, { headers: getHeader(isSecure) });
 }
-
 
 const post = (url, data, isSecure) => {
   return axios.post(url, data, { headers: getHeader(isSecure) });
@@ -31,6 +30,7 @@ const put = (url, data, isSecure) => {
 const remove = (url, isSecure) => {
   return axios.delete(url, { headers: getHeader(isSecure) });
 }
+
 describe('User', () => {
   it('DELETE /users/:id', (done) => {
     remove('users/215', true)
